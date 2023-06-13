@@ -18,7 +18,7 @@ alt - y : yabai -m space --mirror y-axis
 shift + alt - y : yabai -m space --mirror x-axis
 
 # toggle window float
-shift + alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2; sketchybar --trigger window_focus
+alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2; sketchybar --trigger window_focus
 
 # maximize a window
 alt - f : yabai -m window --toggle zoom-fullscreen; sketchybar --trigger window_focus
@@ -66,6 +66,9 @@ alt - 0 : yabai -m space --focus 10;
 ctrl + alt - q : yabai --stop-service
 ctrl + alt - s : yabai --start-service
 ctrl + alt - r : yabai --restart-service
+
+# quit
+alt - q : yabai -m window --close
 
 ###### monitor
 #change focus between external displays (left and right)
